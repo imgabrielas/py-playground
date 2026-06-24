@@ -28,7 +28,6 @@ n_limit = 100000
 Q, C, H = generate_sequences(n_limit)
 n_values = np.arange(1, n_limit + 1)
 
-# --- Figure 2: The Hofstadter Chaotic Heart sequence H(n) ---
 plt.figure(figsize=(10, 6))
 plt.scatter(n_values, H[1:], s=0.1, color='black', alpha=0.5)
 plt.title("Hofstadter Chaotic Heart Sequence $H(n) = C(n) - Q(n)$")
@@ -38,4 +37,4 @@ plt.grid(True, which='both', linestyle='--', linewidth=0.5)
 plt.show()
 
 # plt.savefig('Hofstadter_heart_sequence.png')
-# -----------------------------------------------------------------------------------------------
+
