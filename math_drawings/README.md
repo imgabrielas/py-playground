@@ -76,6 +76,17 @@ Each branch recursively creates smaller branches, producing a fractal-like struc
 
 ---
 
+### Spider-Man Function
+
+A piecewise composition of dozens of clipped algebraic, trigonometric, exponential, and logarithmic functions that together trace the outline of the Spider-Man mask, rendered in white on a black background.
+
+**Technologies**
+
+* NumPy
+* Matplotlib
+
+---
+
 ## Requirements
 
 Install the required libraries:
